@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WpfApp7.ViewModel
+namespace WpfApp7.Models
 {
-    internal class VM_Caterogys
+    internal class Tasks
     {
     }
 }
