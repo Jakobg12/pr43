@@ -20,9 +20,12 @@ namespace WpfApp7
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static MainWindow init;
         public MainWindow()
         {
             InitializeComponent();
+            init = this;
+            DataContext = new ViewModels.VM_Pages();
         }
     }
 }
