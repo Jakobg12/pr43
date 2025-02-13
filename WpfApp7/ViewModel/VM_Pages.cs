@@ -10,7 +10,7 @@ namespace WpfApp7.ViewModel
     {
         public VM_Tasks vm_sotrud = new VM_Tasks();
 
-        public VM_Categorys vm_groups = new VM_Categorys();
+        public VM_Categorys vm_categorys = new VM_Categorys();
 
         public VM_Pages() => MainWindow.init.frame.Navigate(new View.Tasks.Main(vm_Tasks));
 

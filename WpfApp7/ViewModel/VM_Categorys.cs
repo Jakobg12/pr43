@@ -24,7 +24,7 @@ namespace WpfApp7.ViewModel
                 {
                     Categorys NewCategorys = new Categorys();
                     Categorys.Add(NewCategorys);
-                    categorysContext.Groups.Add(NewCategorys);
+                    categorysContext.Categorys.Add(NewCategorys);
                     categorysContext.SaveChanges();
                 });
             }
