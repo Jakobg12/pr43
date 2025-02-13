@@ -4,7 +4,7 @@ using System.Text;
 
 namespace WpfApp7.ViewModel
 {
-    public class VM_Contacts
+    public class VM_Tasks
     {
     }
 }
